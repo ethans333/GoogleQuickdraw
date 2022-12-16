@@ -2,8 +2,8 @@
 
 Google quickdraw is a dataset containing over 50 million labeled doodles of various objects. The ones in my project include cats, dogs, fish and dolphin doodles curated by some of the greatest artists known to man. Examples of some doodles include:
 
-<img src="./cat.png"></img>
-<img src="./dog.png"></img>
+<img src="./cat.png" width=200 height=200></img>
+<img src="./dog.png" width=200 height=200></img>
 
 How can I tell what these drawings are depicting? Because contrary to what I said prior after taking a second look they're terrible! With the application of ```Linear Regression``` we determine what these images are depicting based on previously labeled drawings.
 
@@ -12,6 +12,6 @@ How can I tell what these drawings are depicting? Because contrary to what I sai
 * Train SciKitLearn's ```LinearRegression``` class on the pixel data.
 * Predict labels of new drawings.
 
-<img src="./dog_prediction.png"></img>
+<img src="./dog_prediction.png" width=350 height=350></img>
 
 Doesn't look like any dog i've ever seen...
